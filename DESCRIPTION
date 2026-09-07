@@ -14,10 +14,8 @@ Description: Forward modelling of the burial, compaction and temperature history
     porosity-depth law and is treated as irreversible, so uplifted layers keep the
     porosity acquired at their deepest burial. Temperatures follow the
     steady-state conductive geotherm for a layered column with radiogenic heat
-    production. Utilities are provided to check the continuity of the results, to
-    determine when a unit is inside a hydrocarbon generation window, and to draw a
-    composite burial and temperature figure. Input tables for three localities in
-    the Anglo-Brabant Massif and the Ardennes are included.
+    production. Utilities are provided to draw a composite burial, temperature 
+	and event chart figures.
 License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
