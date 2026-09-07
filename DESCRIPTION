@@ -1,0 +1,27 @@
+Package: basinmodlR
+Type: Package
+Title: One-Dimensional Burial and Thermal History Modelling of Sedimentary Basins
+Version: 0.1.0
+Authors@R: person(given = "Michiel",
+                  family = "Arts",
+                  role = c("aut", "cre"),
+                  email = "michiel.arts@stratigraphy.eu")
+Description: Forward modelling of the burial, compaction and temperature history
+    of a sedimentary column through geological time. A basin is described by one
+    row per stratigraphic unit and one row per erosion event; deposition phases,
+    hiatuses, layer stacks, maximum-burial windows and grain (solid) thicknesses
+    are all derived from that description. Compaction follows an exponential
+    porosity-depth law and is treated as irreversible, so uplifted layers keep the
+    porosity acquired at their deepest burial. Temperatures follow the
+    steady-state conductive geotherm for a layered column with radiogenic heat
+    production. Utilities are provided to check the continuity of the results, to
+    determine when a unit is inside a hydrocarbon generation window, and to draw a
+    composite burial and temperature figure. Input tables for three localities in
+    the Anglo-Brabant Massif and the Ardennes are included.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: graphics, grDevices, stats, utils
+LazyData: true
+NeedsCompilation: no
+RoxygenNote: 7.3.3
