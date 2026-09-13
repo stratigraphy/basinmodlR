@@ -1,7 +1,7 @@
-#' @title basinmodlR: one-dimensional burial and thermal history modelling
+#' @title BasinmodlR: one-dimensional burial and thermal history modelling
 #'
 #' @description
-#' \pkg{basinmodlR} forward models the burial, compaction and temperature history
+#' \pkg{BasinmodlR} forward models the burial, compaction and temperature history
 #' of a one-dimensional sedimentary column through geological time. The whole
 #' basin history is described by two small tables, one row per stratigraphic
 #' unit and one row per erosion event, from which everything else is derived.

@@ -1,4 +1,4 @@
-Package: basinmodlR
+Package: BasinmodlR
 Type: Package
 Title: One-Dimensional Burial and Thermal History Modelling of Sedimentary Basins
 Version: 0.1.0
@@ -6,7 +6,7 @@ Authors@R: person(given = "Michiel",
                   family = "Arts",
                   role = c("aut", "cre"),
                   email = "michiel.arts@stratigraphy.eu")
-Description: Forward modelling of the burial, compaction and temperature history
+Description: A model framework of the burial, compaction and temperature history
     of a sedimentary column through geological time. A basin is described by one
     row per stratigraphic unit and one row per erosion event; deposition phases,
     hiatuses, layer stacks, maximum-burial windows and grain (solid) thicknesses

@@ -949,3 +949,6 @@ plot_event_chart <- function(
 
   invisible(event_data)
 }
+
+
+

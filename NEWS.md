@@ -1,4 +1,4 @@
-# basinmodlR 0.1.0
+# BasinmodlR 0.1.0
 
 * First release.
 * `run_basin_model()` replaces the phase-by-phase scripts: a basin is described
